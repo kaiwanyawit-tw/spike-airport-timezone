@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportToTimeZone", "source\AirportToTimeZone\AirportToTimeZone.csproj", "{89DB60D3-26EF-44DE-BF2C-9808A0BF03B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportToTimeZone.Tests", "test\AirportToTimeZone.Tests\AirportToTimeZone.Tests.csproj", "{A5239A7A-A303-4846-930C-5C7055F1A3BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{89DB60D3-26EF-44DE-BF2C-9808A0BF03B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89DB60D3-26EF-44DE-BF2C-9808A0BF03B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89DB60D3-26EF-44DE-BF2C-9808A0BF03B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5239A7A-A303-4846-930C-5C7055F1A3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5239A7A-A303-4846-930C-5C7055F1A3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5239A7A-A303-4846-930C-5C7055F1A3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5239A7A-A303-4846-930C-5C7055F1A3BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
