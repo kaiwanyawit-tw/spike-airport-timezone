@@ -7,14 +7,10 @@ namespace AirportToTimeZone.Tests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void Test1()
         {
+            var eol = Environment.NewLine;
             var sb = new StringBuilder();
             var sw = new StringWriter(sb);
             var input = new StringReader("NRT");
