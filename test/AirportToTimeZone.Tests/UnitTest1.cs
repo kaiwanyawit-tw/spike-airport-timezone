@@ -1,7 +1,7 @@
+using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using NUnit.Framework;
 
 namespace AirportToTimeZone.Tests
 {
@@ -27,8 +27,8 @@ namespace AirportToTimeZone.Tests
             });
 
             t.Wait(3000);
-       
-            Assert.AreEqual("TZDB: 2021a (mapping: $Revision$)\r\nNRT Asia/Tokyo +09\r\n", sb.ToString());
+
+            Assert.AreEqual($"NRT Asia/Tokyo +09{eol}", sb.ToString());
         }
     }
 }
