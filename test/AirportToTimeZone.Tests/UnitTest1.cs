@@ -24,8 +24,8 @@ namespace AirportToTimeZone.Tests
             });
 
             t.Wait(3000);
-       
-            Assert.AreEqual($"TZDB: 2021a (mapping: $Revision$){eol}NRT Asia/Tokyo +09{eol}", sb.ToString());
+
+            Assert.AreEqual($"NRT Asia/Tokyo +09{eol}", sb.ToString());
         }
     }
 }
